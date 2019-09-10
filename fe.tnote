@@ -18,7 +18,6 @@
 / Prosper, envoi de mail, correspondants PETREL, autres réseaux ; étude ; 2019/07/12 ; FE,10
 
 # PENA
-> Compte Sophie ; ajouter ; 2019/09/09 ; FE,0.1
 > Création d'un typage manuel à partir d'un lettrage ; Ajouter cette fonction ; 2019/09/09 ; FE,1
 - Formation ; présenter PENA ; 2019/09/10
 - Ajouter "PAO_DATE_ANALYSE" (la date liste sur l'action moe) afin de pouvoir sélectionner l'analyse permettant de lister les agents d'une action.
@@ -33,6 +32,7 @@
 - Création d'une action à partir du typage ; Avertir l'utilisateur si l'action est déjà existante, et va donc être complétée
 - Impossible d'interdire l'accès au lettrage pour le rôle ADMIN_CQCI. Pb de droits ; Corriger
 ! affichage du mel/login sur la fiche utilisateur ; corriger
+/ Compte Sophie ; ajouter ; 2019/09/09 ; FE,0.1
 / Formation ; Vérifier accès Prosper et Pena ; 2019/09/09 ; FE,0.1
 / Différencier la prod des autres env ; ajouter indicateur visuel ; 2019/09/09 ; FE,0.2
 / Ajouter une action en nomenclature "Correction dans PETREL". Elle sera utilisée sur les analyses manuelles effectuées par Daniel ; Saisir ; 2019/09/06 ; FE,0.1
