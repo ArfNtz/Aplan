@@ -18,6 +18,7 @@
 / Prosper, envoi de mail, correspondants PETREL, autres réseaux ; étude ; 2019/07/12 ; FE,10
 
 # PENA
+- timeout session 
 > Création d'un typage manuel à partir d'un lettrage ; Ajouter cette fonction ; 2019/09/09 ; FE,1
 - Formation ; présenter PENA ; 2019/09/10
 - Ajouter "PAO_DATE_ANALYSE" (la date liste sur l'action moe) afin de pouvoir sélectionner l'analyse permettant de lister les agents d'une action.
@@ -52,6 +53,7 @@
 / Envoi de juin sgl_maj_dos ; créer l'action, le lettrage ; 2019/06/26 ; AV,0.2 FE,0.2 ; AV,0.2 FE,0.2
 
 # CARWEN
+- recherche dans les commentaires des contacts ; créer un rapport prosper personnalisé ? usage Patrick 
 ! timeout de session (attention stateless) ; mettre en place ; 2019/09/09 ; FE
 - Formation page accueil pour usage réseau PETREL ; doc de formation ; ; FE SC
 = 1. Formation page accueil pour usage réseau PETREL, créer les comptes ; lister les comptes ;; SC
