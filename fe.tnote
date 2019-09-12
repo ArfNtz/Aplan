@@ -18,8 +18,12 @@
 / Prosper, envoi de mail, correspondants PETREL, autres réseaux ; étude ; 2019/07/12 ; FE,10
 
 # PENA
-- timeout session 
 > Création d'un typage manuel à partir d'un lettrage ; Ajouter cette fonction ; 2019/09/09 ; FE,1
+  Ajouter un bouton "Créer une analyse manuelle" sur l'écran lettrage lorsqu'un lettrage est sélectionné
+  La fenêtre de création demande de saisir l'analyse manuelle
+  Un bouton "Créer" enregistre l'analyse pour chaque agent du lettrage
+- Intégration des retours enquêtes ; documenter ; 2019/09/12 ; FE SC
+- timeout session 
 - Formation ; présenter PENA ; 2019/09/10
 - Ajouter "PAO_DATE_ANALYSE" (la date liste sur l'action moe) afin de pouvoir sélectionner l'analyse permettant de lister les agents d'une action.
 - Lettrage ; Ajouter une fonctionnalité de remise à zéro (codeRetour et message).  Permettre aussi la suppression ?
@@ -33,9 +37,9 @@
 - Création d'une action à partir du typage ; Avertir l'utilisateur si l'action est déjà existante, et va donc être complétée
 - Impossible d'interdire l'accès au lettrage pour le rôle ADMIN_CQCI. Pb de droits ; Corriger
 ! affichage du mel/login sur la fiche utilisateur ; corriger
-/ Compte Sophie ; ajouter ; 2019/09/09 ; FE,0.1
-/ Formation ; Vérifier accès Prosper et Pena ; 2019/09/09 ; FE,0.1
-/ Différencier la prod des autres env ; ajouter indicateur visuel ; 2019/09/09 ; FE,0.2
+/ Compte Sophie ; ajouter ; 2019/09/11 ; FE,0.1
+/ Formation ; Vérifier accès Prosper et Pena ; 2019/09/11 ; FE,0.1
+/ Différencier la prod des autres env ; ajouter indicateur visuel ; 2019/09/11 ; FE,0.2
 / Ajouter une action en nomenclature "Correction dans PETREL". Elle sera utilisée sur les analyses manuelles effectuées par Daniel ; Saisir ; 2019/09/06 ; FE,0.1
 / Manuels en vue d'une formation ; Re-lecture, corrections ; 2019/09/10 ; CP,0.2 FE,0.2
 / Manuels en vue d'une formation ; Créer ; 2019/09/04 ; FE,0.5
@@ -53,7 +57,8 @@
 / Envoi de juin sgl_maj_dos ; créer l'action, le lettrage ; 2019/06/26 ; AV,0.2 FE,0.2 ; AV,0.2 FE,0.2
 
 # CARWEN
-- recherche dans les commentaires des contacts ; créer un rapport prosper personnalisé ? usage Patrick 
+- prendre en compte le filtre *domaine sur les contact ? exemple cas de Patrick.
+- besoin de rechercher dans les commentaires des contacts pour gestion Patrick ; créer un rapport prosper personnalisé ?
 ! timeout de session (attention stateless) ; mettre en place ; 2019/09/09 ; FE
 - Formation page accueil pour usage réseau PETREL ; doc de formation ; ; FE SC
 = 1. Formation page accueil pour usage réseau PETREL, créer les comptes ; lister les comptes ;; SC
