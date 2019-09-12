@@ -24,7 +24,8 @@
   Un bouton "Créer" enregistre l'analyse pour chaque agent du lettrage
 - Intégration des retours enquêtes ; documenter ; 2019/09/12 ; FE SC
 - timeout session 
-- Formation ; présenter PENA ; 2019/09/10
+- formation; doc en cours 
+/ Formation ; présenter PENA ; 2019/09/11
 - Ajouter "PAO_DATE_ANALYSE" (la date liste sur l'action moe) afin de pouvoir sélectionner l'analyse permettant de lister les agents d'une action.
 - Lettrage ; Ajouter une fonctionnalité de remise à zéro (codeRetour et message).  Permettre aussi la suppression ?
 - Lettrage ; Mettre le libellé UG en colonne UG
