@@ -58,6 +58,7 @@
 / Envoi de juin sgl_maj_dos ; créer l'action, le lettrage ; 2019/06/26 ; AV,0.2 FE,0.2 ; AV,0.2 FE,0.2
 
 # CARWEN
+- reprise , libellé optional à enlever 
 - prendre en compte le filtre *domaine sur les contact ? exemple cas de Patrick.
 - besoin de rechercher dans les commentaires des contacts pour gestion Patrick ; créer un rapport prosper personnalisé ?
 ! timeout de session (attention stateless) ; mettre en place ; 2019/09/09 ; FE
