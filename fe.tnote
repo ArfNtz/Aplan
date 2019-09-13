@@ -18,7 +18,7 @@
 / Prosper, envoi de mail, correspondants PETREL, autres réseaux ; étude ; 2019/07/12 ; FE,10
 
 # PENA
-> Création d'un typage manuel à partir d'un lettrage ; Ajouter cette fonction ; 2019/09/09 ; FE,1
+> Création d'un typage manuel à partir d'un lettrage ; Ajouter la fonction ; 2019/09/09 ; FE,1
   Ajouter un bouton "Créer une analyse manuelle" sur l'écran lettrage lorsqu'un lettrage est sélectionné
   La fenêtre de création demande de saisir l'analyse manuelle
   Un bouton "Créer" enregistre l'analyse pour chaque agent du lettrage
@@ -79,4 +79,5 @@
 # CARMEN
 - RP ; Logs , Optimisation (8Go) , Analyse 
 - Jobs ; Requête prosper ; 2019/09/09 ; FE,0.2
+/ Restauration CARMEN vers CARTEST ; ; 13/09/2019 ; FE,0.1
 / Timestamp "DateStart" sur le "Job" ; ajouter et tester (Junit) ; 2019/09/08 ; FE,0.2
