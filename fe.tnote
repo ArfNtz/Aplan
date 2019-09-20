@@ -58,8 +58,7 @@
 / Envoi de juin sgl_maj_dos ; créer l'action, le lettrage ; 2019/06/26 ; AV,0.2 FE,0.2 ; AV,0.2 FE,0.2
 
 # CARWEN
-- reprise , libellé optional à enlever 
-- prendre en compte le filtre *domaine sur les contact ? exemple cas de Patrick.
+- prendre en compte le filtre *domaine sur les contact ? exemple cas de Patrick
 - besoin de rechercher dans les commentaires des contacts pour gestion Patrick ; créer un rapport prosper personnalisé ?
 ! timeout de session (attention stateless) ; mettre en place ; 2019/09/09 ; FE
 - Formation page accueil pour usage réseau PETREL ; doc de formation ; ; FE SC
@@ -72,6 +71,7 @@
 - Probleme de répartition des fonctions dans deux catégories identiques sur l'arbre de selection des fonctions de l'écran d'accueil
 - 1. 3ème session de formation ; déterminer la liste des participants ; ; SC
 = 3ème session de formation ; créer les comptes utilisateurs ; ; FE ; ; 1
+/ mettre le commentaire repris au niveau de la correspondance (et non au niveau du contact)
 / Restaurer base prod sur recette ; Restaurer ; 2019/09/07 ; FE,0.2
 / PETREL data.ods ; reprendre les colonnes du fichier dans le zone commentaire du contact ; 2019/09/07 ; FE,0.5
 / MT1971 et MT1972 (mois+1 sur la date, Trunc sur commentaire Ville) ; publié sur branche 'MT1971 et MT1972' ; 2019/07/23 ; FE,0.5
