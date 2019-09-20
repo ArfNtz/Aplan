@@ -3,14 +3,13 @@
 - Dockerisation
 
 # Divers
-/ Pt Section ; Participer ; 2019/09/04 ; FE,0.1
+/ Pt Section ; Participation ; 2019/09/04 ; FE,0.1
 / Poste ; configurer le nouveau (montage réseau .cifsauth timorii, eclipse, mail, vscode, pena, carwen, npm, git, maven ...); 2019/07/16 ; FE,1
 / Carmen, consultation, aide RV, Pb d'affichage dand le bandeau ; erreur non loggée, pb vu en debug, ajout d'une condition sur l'affichage du lien vers pension ; 2019/07/15 ; FE,0.5
 
 # Prosper Mailing Message ; Ajouter les correspondants PETREL en destinataires
 / Environnement technique ; Tomact5.5, Jdk7, récupération des projets, compilation (pom)
-* Etude et dev
-/ JSP, Action (contrôle), modèle, interfaces ; Ajout des champs
+/ JSP, Action (contrôle), modèle, interfaces, ajout des champs ; Etude et dev
 / Base de données, mapping ; ajout des champs DDL, SQL, HBM
   Suppression MAI_PJ_5 pour SQLCODE -667 et colonne non utilisée dans le mailing
   Pb "MAI_MAB_ID" : colonne manquante sur protest
@@ -18,15 +17,8 @@
 / Prosper, envoi de mail, correspondants PETREL, autres réseaux ; étude ; 2019/07/12 ; FE,10
 
 # PENA
-> Documenter la procédure de création d'un action à partir d'une liste d'agents fournis par fichier csv
-/ Création d'un lettrage à partir d'un fichier csv
-/ Création d'un typage manuel à partir d'un lettrage ; Ajouter la fonction ; 2019/09/09 ; FE,1
-  Ajouter un bouton "Créer une analyse manuelle" sur l'écran lettrage lorsqu'un lettrage est sélectionné
-  La fenêtre de création demande de saisir l'analyse manuelle
-  Un bouton "Créer" enregistre l'analyse pour chaque agent du lettrage
 - Intégration des retours enquêtes ; documenter ; 2019/09/12 ; FE SC
-- timeout session 
-/ Formation ; créer doc MU et présenter PENA ; 2019/09/11
+- timeout session : étude et développement ; ; FE
 - Ajouter "PAO_DATE_ANALYSE" (la date liste sur l'action moe) afin de pouvoir sélectionner l'analyse permettant de lister les agents d'une action.
 - Lettrage ; Ajouter une fonctionnalité de remise à zéro (codeRetour et message).  Permettre aussi la suppression ?
 - Lettrage ; Mettre le libellé UG en colonne UG
@@ -39,6 +31,10 @@
 - Création d'une action à partir du typage ; Avertir l'utilisateur si l'action est déjà existante, et va donc être complétée
 - Impossible d'interdire l'accès au lettrage pour le rôle ADMIN_CQCI. Pb de droits ; Corriger
 ! affichage du mel/login sur la fiche utilisateur ; corriger
+/ Création d'un action à partir d'une liste d'agents fournis par fichier csv ; écrite la procédure ; 2019/09/09 ; FE,1
+/ Création d'un lettrage à partir d'un fichier csv ; étude et développement ; 2019/09/09 ; FE,1
+/ Création d'un typage manuel à partir d'un lettrage ; etude et développement ; 2019/09/09 ; FE,1
+/ Formation ; créer doc MU et présenter PENA ; 2019/09/11
 / Compte Sophie ; ajouter ; 2019/09/11 ; FE,0.1
 / Formation ; Vérifier accès Prosper et Pena ; 2019/09/11 ; FE,0.1
 / Différencier la prod des autres env ; ajouter indicateur visuel ; 2019/09/11 ; FE,0.2
