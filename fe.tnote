@@ -18,14 +18,15 @@
 / Prosper, envoi de mail, correspondants PETREL, autres réseaux ; étude ; 2019/07/12 ; FE,10
 
 # PENA
-> Création d'un typage manuel à partir d'un lettrage ; Ajouter la fonction ; 2019/09/09 ; FE,1
+> Documenter la procédure de création d'un action à partir d'une liste d'agents fournis par fichier csv
+/ Création d'un lettrage à partir d'un fichier csv
+/ Création d'un typage manuel à partir d'un lettrage ; Ajouter la fonction ; 2019/09/09 ; FE,1
   Ajouter un bouton "Créer une analyse manuelle" sur l'écran lettrage lorsqu'un lettrage est sélectionné
   La fenêtre de création demande de saisir l'analyse manuelle
   Un bouton "Créer" enregistre l'analyse pour chaque agent du lettrage
 - Intégration des retours enquêtes ; documenter ; 2019/09/12 ; FE SC
 - timeout session 
-- formation; doc en cours 
-/ Formation ; présenter PENA ; 2019/09/11
+/ Formation ; créer doc MU et présenter PENA ; 2019/09/11
 - Ajouter "PAO_DATE_ANALYSE" (la date liste sur l'action moe) afin de pouvoir sélectionner l'analyse permettant de lister les agents d'une action.
 - Lettrage ; Ajouter une fonctionnalité de remise à zéro (codeRetour et message).  Permettre aussi la suppression ?
 - Lettrage ; Mettre le libellé UG en colonne UG
@@ -58,7 +59,7 @@
 / Envoi de juin sgl_maj_dos ; créer l'action, le lettrage ; 2019/06/26 ; AV,0.2 FE,0.2 ; AV,0.2 FE,0.2
 
 # CARWEN
-- prendre en compte le filtre *domaine sur les contact ? exemple cas de Patrick
+- prendre en compte le filtre *domaine sur les contact ? exemple cas de Patrick.
 - besoin de rechercher dans les commentaires des contacts pour gestion Patrick ; créer un rapport prosper personnalisé ?
 ! timeout de session (attention stateless) ; mettre en place ; 2019/09/09 ; FE
 - Formation page accueil pour usage réseau PETREL ; doc de formation ; ; FE SC
