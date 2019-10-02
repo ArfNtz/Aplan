@@ -1,5 +1,5 @@
 # Self
-- Git merge workflow master / develop ; dev init 4
+- Git merge workflow master / develop ; dev
 - Dockerisation
 
 # Divers
@@ -49,7 +49,7 @@
 / Fonction d'actualisation des actions liées à un lettrage ; tester ; 2019/07/02 ; FE,0.3
 / Lettrage ; Mettre le tri par défaut sur le code lettrage le plus récent (desc) ; 2019/07/02 ; FE,0.2
 / Scripts sql du socle carwen (user, lov ...) ; publier sur svn carmen ; 2019/07/01 ; FE,0.2
-/ Install poste dominique Nicol avec PG ; ; 2019/07/01 ; FE,0.2
+/ Installation de poste Dominique Nicol , PG + FE ; ; 2019/07/01 ; FE,0.2
 / Envoi de juin sgl_maj_dos, probleme sur batch java en prod ; relancer la génération xls ; 2019/07/01 ; FE,0.2 ; FE,0.2
 / Sélection des SGL sur l'écran "Typages" ; mettre en sélection multiple les applications et les périmètres ; 2019/06/28 ; FE,0.2
 / Envoi de juin sgl_maj_dos ; créer les fichiers xls de rapport d'anomalie, créer le rapport prosper, mettre en place et tester le mailing  ; 2019/06/26 ; FE,0.2 ; FE,0.2
