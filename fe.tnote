@@ -49,13 +49,15 @@
 / Fonction d'actualisation des actions liées à un lettrage ; tester ; 2019/07/02 ; FE,0.3
 / Lettrage ; Mettre le tri par défaut sur le code lettrage le plus récent (desc) ; 2019/07/02 ; FE,0.2
 / Scripts sql du socle carwen (user, lov ...) ; publier sur svn carmen ; 2019/07/01 ; FE,0.2
-/ Install poste dominique Nicol avec PG ; ; 2019/07/01 ; FE,0.2
+/ Installation de poste Dominique Nicol , PG + FE ; ; 2019/07/01 ; FE,0.2
 / Envoi de juin sgl_maj_dos, probleme sur batch java en prod ; relancer la génération xls ; 2019/07/01 ; FE,0.2 ; FE,0.2
 / Sélection des SGL sur l'écran "Typages" ; mettre en sélection multiple les applications et les périmètres ; 2019/06/28 ; FE,0.2
 / Envoi de juin sgl_maj_dos ; créer les fichiers xls de rapport d'anomalie, créer le rapport prosper, mettre en place et tester le mailing  ; 2019/06/26 ; FE,0.2 ; FE,0.2
 / Envoi de juin sgl_maj_dos ; créer l'action, le lettrage ; 2019/06/26 ; AV,0.2 FE,0.2 ; AV,0.2 FE,0.2
 
 # CARWEN
+- suppr les modérateurs sur id personne non existant
+> doc presentation carwen en vue formation ; 
 - prendre en compte le filtre *domaine sur les contact ? exemple cas de Patrick.
 - besoin de rechercher dans les commentaires des contacts pour gestion Patrick ; créer un rapport prosper personnalisé ?
 ! timeout de session (attention stateless) ; mettre en place ; 2019/09/09 ; FE
