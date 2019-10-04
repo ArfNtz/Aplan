@@ -23,6 +23,7 @@
 / Mantis 1913 (pb de dates) ; publié en branche "MT_1913_Remise_en_ordre_datesG1" ; 2019/06/27 ; FE,0.3 ; FE,0.3
 / reprise REPDET ; développement programme de reprise des mail ; 2019/06/25 ; FE,0.5 ; FE,0.5
 
+
 # PENA
 - Intégration des retours enquêtes ; documenter ; 2019/09/12 ; FE SC
 - Ajouter "PAO_DATE_ANALYSE" (la date liste sur l'action moe) afin de pouvoir sélectionner l'analyse permettant de lister les agents d'une action.
