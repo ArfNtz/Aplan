@@ -1,20 +1,27 @@
-# Self
-- Git merge workflow master / develop ; dev
-- Dockerisation
-
-# Divers
-/ Pt Section ; Participation ; 2019/09/04 ; FE,0.1
-/ Poste ; configurer le nouveau (montage réseau .cifsauth timorii, eclipse, mail, vscode, pena, carwen, npm, git, maven ...); 2019/07/16 ; FE,1
-/ Carmen, consultation, aide RV, Pb d'affichage dand le bandeau ; erreur non loggée, pb vu en debug, ajout d'une condition sur l'affichage du lien vers pension ; 2019/07/15 ; FE,0.5
-
-# Prosper Mailing Message ; Ajouter les correspondants PETREL en destinataires
-/ Environnement technique ; Tomact5.5, Jdk7, récupération des projets, compilation (pom)
-/ JSP, Action (contrôle), modèle, interfaces, ajout des champs ; Etude et dev
-/ Base de données, mapping ; ajout des champs DDL, SQL, HBM
-  Suppression MAI_PJ_5 pour SQLCODE -667 et colonne non utilisée dans le mailing
-  Pb "MAI_MAB_ID" : colonne manquante sur protest
-  Pb avec les checkAction (coché en To -> pas coché en Cc)
-/ Prosper, envoi de mail, correspondants PETREL, autres réseaux ; étude ; 2019/07/12 ; FE,10
+# CARWEN
+* Formation
+  Sur environnement de qualification ? (avec reprise des correspondants PETREL)
+- Maîtrise d'ouvrage SC, PG ; solliciter Sophie, Cécile en amont des formations, ajouter une rubrique "questions fréquentes" au support.
+> Comptes utilisateurs ; créer via reprise annuaire SREN ; ; FE
+- Inscription ; préparer et faire circuler les feuilles ; ; FE
+* Reprises
+> PETREL ; qualification ; ; PG
+> SREN ; développement ; ; FE
+= REPDET, reprise des mails ; qualification ; 
+* Évolution et maintenance
+! Recherche par code UGL sur la page d'accueil ; évaluer
+! timeout de session ; mettre celui de PENA ; ; FE
+- Filtre *domaine non pris en compte sur les contact (exemple cas de Patrick) ; corriger
+- Pouvoir rechercher dans les commentaires des contacts (Patrick) ; créer un rapport prosper personnalisé ?
+- Restriction de la consultation sur certaines fonctions (DRH par exemple) ; à la création d'une fonction, permettre de préciser les rôles ... et autorisations ? 
+- Tenir compte de l'ordre saisi sur l'affectation dans la vue service de la page d'accueil
+- Problème de répartition des fonctions dans deux catégories identiques sur l'arbre de sélection des fonctions de l'écran d'accueil
+/ mettre le commentaire repris au niveau de la correspondance (et non au niveau du contact)
+/ Restaurer base prod sur recette ; Restaurer ; 2019/09/07 ; FE,0.2
+/ PETREL data.ods ; reprendre les colonnes du fichier dans le zone commentaire du contact ; 2019/09/07 ; FE,0.5
+/ MT1971 et MT1972 (mois+1 sur la date, Trunc sur commentaire Ville) ; publié sur branche 'MT1971 et MT1972' ; 2019/07/23 ; FE,0.5
+/ Mantis 1913 (pb de dates) ; publié en branche "MT_1913_Remise_en_ordre_datesG1" ; 2019/06/27 ; FE,0.3 ; FE,0.3
+/ reprise REPDET ; développement programme de reprise des mail ; 2019/06/25 ; FE,0.5 ; FE,0.5
 
 # PENA
 - Intégration des retours enquêtes ; documenter ; 2019/09/12 ; FE SC
@@ -55,29 +62,26 @@
 / Envoi de juin sgl_maj_dos ; créer les fichiers xls de rapport d'anomalie, créer le rapport prosper, mettre en place et tester le mailing  ; 2019/06/26 ; FE,0.2 ; FE,0.2
 / Envoi de juin sgl_maj_dos ; créer l'action, le lettrage ; 2019/06/26 ; AV,0.2 FE,0.2 ; AV,0.2 FE,0.2
 
-# CARWEN
-- prendre en compte le filtre *domaine sur les contact ? exemple cas de Patrick.
-- besoin de rechercher dans les commentaires des contacts pour gestion Patrick ; créer un rapport prosper personnalisé ?
-! timeout de session (attention stateless) ; mettre en place ; 2019/09/09 ; FE
-- Formation page accueil pour usage réseau PETREL ; doc de formation ; ; FE SC
-= 1. Formation page accueil pour usage réseau PETREL, créer les comptes ; lister les comptes ;; SC
-= PETREL ; executer la reprise sur l'env. de prod, après les formations ; ; FE,0.2 ; 1.
-= REPDET ; executer la reprise sur l'env. de prod après les formations ? pour les 19 sites en groupe 2 uniquement ? ; ; FE,0.2
-- Sur la page d'accueil, pouvoir rechercher une UGL, par exemple "EM325" pour avoir ses correspondants
-- Restriction de la consultation sur certaines fonctions (DRH par exemple) ; à la création d'une fonction, permettre de préciser les rôles ... et autorisations ? 
-- Tenir compte de l'ordre saisi sur l'affectation dans la vue service de la page d'accueil
-- Probleme de répartition des fonctions dans deux catégories identiques sur l'arbre de selection des fonctions de l'écran d'accueil
-- 1. 3ème session de formation ; déterminer la liste des participants ; ; SC
-= 3ème session de formation ; créer les comptes utilisateurs ; ; FE ; ; 1
-/ mettre le commentaire repris au niveau de la correspondance (et non au niveau du contact)
-/ Restaurer base prod sur recette ; Restaurer ; 2019/09/07 ; FE,0.2
-/ PETREL data.ods ; reprendre les colonnes du fichier dans le zone commentaire du contact ; 2019/09/07 ; FE,0.5
-/ MT1971 et MT1972 (mois+1 sur la date, Trunc sur commentaire Ville) ; publié sur branche 'MT1971 et MT1972' ; 2019/07/23 ; FE,0.5
-/ Mantis 1913 (pb de dates) ; publié en branche "MT_1913_Remise_en_ordre_datesG1" ; 2019/06/27 ; FE,0.3 ; FE,0.3
-/ reprise REPDET ; developpement programme de reprise des mail ; 2019/06/25 ; FE,0.5 ; FE,0.5
-
 # CARMEN
 - RP ; Logs , Optimisation (8Go) , Analyse 
 - Jobs ; Requête prosper ; 2019/09/09 ; FE,0.2
 / Restauration CARMEN vers CARTEST ; ; 13/09/2019 ; FE,0.1
 / Timestamp "DateStart" sur le "Job" ; ajouter et tester (Junit) ; 2019/09/08 ; FE,0.2
+
+# Self
+- Git merge workflow master / develop ; dev
+- Dockerisation
+
+# Divers
+/ Pt Section ; Participation ; 2019/09/04 ; FE,0.1
+/ Poste ; configurer le nouveau (montage réseau .cifsauth timorii, eclipse, mail, vscode, pena, carwen, npm, git, maven ...); 2019/07/16 ; FE,1
+/ Carmen, consultation, aide RV, Pb d'affichage dand le bandeau ; erreur non loggée, pb vu en debug, ajout d'une condition sur l'affichage du lien vers pension ; 2019/07/15 ; FE,0.5
+
+# Prosper Mailing Message ; Ajouter les correspondants PETREL en destinataires
+/ Environnement technique ; Tomact5.5, Jdk7, récupération des projets, compilation (pom)
+/ JSP, Action (contrôle), modèle, interfaces, ajout des champs ; Etude et dev
+/ Base de données, mapping ; ajout des champs DDL, SQL, HBM
+  Suppression MAI_PJ_5 pour SQLCODE -667 et colonne non utilisée dans le mailing
+  Pb "MAI_MAB_ID" : colonne manquante sur protest
+  Pb avec les checkAction (coché en To -> pas coché en Cc)
+/ Prosper, envoi de mail, correspondants PETREL, autres réseaux ; étude ; 2019/07/12 ; FE,10
