@@ -1,14 +1,13 @@
 # CARWEN
 > Reprises PETREL ; qualification ; ; PG
-> Reprises SREN ; développement ; ; FE
 = Reprises REPDET, reprise des mails ; qualification ; 
-! Recherche par code UGL sur la page d'accueil ; évaluer
 ! timeout de session ; mettre celui de PENA ; ; FE
 - Pouvoir rechercher dans les commentaires des contacts (Patrick) ; créer un rapport prosper personnalisé ?
 - Restriction de la consultation sur certaines fonctions (DRH par exemple) ; à la création d'une fonction, permettre de préciser les rôles ... et autorisations ? 
 - Tenir compte de l'ordre saisi sur l'affectation dans la vue service de la page d'accueil
 - Problème de répartition des fonctions dans deux catégories identiques sur l'arbre de sélection des fonctions de l'écran d'accueil
 / Filtre *domaine non pris en compte sur les contact (exemple cas de Patrick) ; corriger
+/ Recherche par code UGL sur la page d'accueil ; Mt2025 publiée branche "doc" ; 2019/10/09 ; FE
 / changer les libellés contact en personne et correspondants en affectation.
 / Inscription ; préparer et faire circuler les feuilles ; 2019/10/07 ; FE
 / Support de formation ; ; 2019/10/07 ; FE
