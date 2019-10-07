@@ -1,21 +1,17 @@
 # CARWEN
-* Formation
-  Sur environnement de qualification ? (avec reprise des correspondants PETREL)
-- Maîtrise d'ouvrage SC, PG ; solliciter Sophie, Cécile en amont des formations, ajouter une rubrique "questions fréquentes" au support.
-> Comptes utilisateurs ; créer via reprise annuaire SREN ; ; FE
-- Inscription ; préparer et faire circuler les feuilles ; ; FE
-* Reprises
-> PETREL ; qualification ; ; PG
-> SREN ; développement ; ; FE
-= REPDET, reprise des mails ; qualification ; 
-* Évolution et maintenance
+> Reprises PETREL ; qualification ; ; PG
+> Reprises SREN ; développement ; ; FE
+= Reprises REPDET, reprise des mails ; qualification ; 
 ! Recherche par code UGL sur la page d'accueil ; évaluer
 ! timeout de session ; mettre celui de PENA ; ; FE
-- Filtre *domaine non pris en compte sur les contact (exemple cas de Patrick) ; corriger
 - Pouvoir rechercher dans les commentaires des contacts (Patrick) ; créer un rapport prosper personnalisé ?
 - Restriction de la consultation sur certaines fonctions (DRH par exemple) ; à la création d'une fonction, permettre de préciser les rôles ... et autorisations ? 
 - Tenir compte de l'ordre saisi sur l'affectation dans la vue service de la page d'accueil
 - Problème de répartition des fonctions dans deux catégories identiques sur l'arbre de sélection des fonctions de l'écran d'accueil
+/ Filtre *domaine non pris en compte sur les contact (exemple cas de Patrick) ; corriger
+/ Inscription ; préparer et faire circuler les feuilles ; 2019/10/07 ; FE
+/ Support de formation ; ; 2019/10/07 ; FE
+/ Comptes utilisateurs ; créer via reprise annuaire SREN ; 2019/10/07 ; FE
 / mettre le commentaire repris au niveau de la correspondance (et non au niveau du contact)
 / Restaurer base prod sur recette ; Restaurer ; 2019/09/07 ; FE,0.2
 / PETREL data.ods ; reprendre les colonnes du fichier dans le zone commentaire du contact ; 2019/09/07 ; FE,0.5
@@ -23,8 +19,8 @@
 / Mantis 1913 (pb de dates) ; publié en branche "MT_1913_Remise_en_ordre_datesG1" ; 2019/06/27 ; FE,0.3 ; FE,0.3
 / reprise REPDET ; développement programme de reprise des mail ; 2019/06/25 ; FE,0.5 ; FE,0.5
 
-
 # PENA
+! affichage du mel/login sur la fiche utilisateur ; corriger
 - Intégration des retours enquêtes ; documenter ; 2019/09/12 ; FE SC
 - Ajouter "PAO_DATE_ANALYSE" (la date liste sur l'action moe) afin de pouvoir sélectionner l'analyse permettant de lister les agents d'une action.
 - Lettrage ; Ajouter une fonctionnalité de remise à zéro (codeRetour et message).  Permettre aussi la suppression ?
@@ -37,7 +33,9 @@
 - Export de la selection d'agent de l'écran "typages" ; inclure les données pena des agents (PCG)
 - Création d'une action à partir du typage ; Avertir l'utilisateur si l'action est déjà existante, et va donc être complétée
 - Impossible d'interdire l'accès au lettrage pour le rôle ADMIN_CQCI. Pb de droits ; Corriger
-! affichage du mel/login sur la fiche utilisateur ; corriger
+/ Batch renvoi complet ; ajouter logs agents différents cas ; 2019/10/07 ; FE
+/ Import lettrage ; changer le masque "Ljjmmaa_Ajjmmaa..." en "Code_situation_observée" ; 2019/10/07 ; FE
+/ Optimisation analyses manuelles (écran-metier-requete) ; créer objets adaptés ; 2019/10/07 ; FE
 / timeout session : étude et développement ; 2019/09/26 ; FE,0.5
 / Batch Renvoi Complet : Etude et développement, intégration au menu : 2019/09/25 ; FE,1
 / Création d'un action à partir d'une liste d'agents fournis par fichier csv ; écrire la procédure ; 2019/09/11 ; FE,1
@@ -64,6 +62,7 @@
 / Envoi de juin sgl_maj_dos ; créer l'action, le lettrage ; 2019/06/26 ; AV,0.2 FE,0.2 ; AV,0.2 FE,0.2
 
 # CARMEN
+- Batch renvoi complet ; ajouter les agents traités dans les traces ; ; FE
 - RP ; Logs , Optimisation (8Go) , Analyse 
 - Jobs ; Requête prosper ; 2019/09/09 ; FE,0.2
 / Restauration CARMEN vers CARTEST ; ; 13/09/2019 ; FE,0.1
