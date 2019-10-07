@@ -9,6 +9,7 @@
 > SREN ; développement ; ; FE
 = REPDET, reprise des mails ; qualification ; 
 * Évolution et maintenance
+- changer le libellé menu Contact en Personne et Correspondant en Affectation 
 ! Recherche par code UGL sur la page d'accueil ; évaluer
 ! timeout de session ; mettre celui de PENA ; ; FE
 - Filtre *domaine non pris en compte sur les contact (exemple cas de Patrick) ; corriger
