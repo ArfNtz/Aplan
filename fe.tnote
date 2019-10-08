@@ -1,5 +1,5 @@
 # CARWEN
-> Reprises PETREL ; qualification ; ; PG
+= Reprises PETREL ; après formation, avec feu vert SC
 = Reprises REPDET, reprise des mails ; qualification ; 
 ! timeout de session ; mettre celui de PENA ; ; FE
 - Pouvoir rechercher dans les commentaires des contacts (Patrick) ; créer un rapport prosper personnalisé ?
@@ -33,11 +33,9 @@
 - Export de la selection d'agent de l'écran "typages" ; inclure les données pena des agents (PCG)
 - Création d'une action à partir du typage ; Avertir l'utilisateur si l'action est déjà existante, et va donc être complétée
 - Impossible d'interdire l'accès au lettrage pour le rôle ADMIN_CQCI. Pb de droits ; Corriger
-/ Batch renvoi complet ; ajouter logs agents différents cas ; 2019/10/07 ; FE
 / Import lettrage ; changer le masque "Ljjmmaa_Ajjmmaa..." en "Code_situation_observée" ; 2019/10/07 ; FE
 / Optimisation analyses manuelles (écran-metier-requete) ; créer objets adaptés ; 2019/10/07 ; FE
 / timeout session : étude et développement ; 2019/09/26 ; FE,0.5
-/ Batch Renvoi Complet : Etude et développement, intégration au menu : 2019/09/25 ; FE,1
 / Création d'un action à partir d'une liste d'agents fournis par fichier csv ; écrire la procédure ; 2019/09/11 ; FE,1
 / Création d'un typage manuel à partir d'un lettrage ; etude et développement ; 2019/09/10 ; FE,1
 / Création d'un lettrage à partir d'un fichier csv ; étude et développement ; 2019/09/09 ; FE,1
@@ -62,15 +60,12 @@
 / Envoi de juin sgl_maj_dos ; créer l'action, le lettrage ; 2019/06/26 ; AV,0.2 FE,0.2 ; AV,0.2 FE,0.2
 
 # CARMEN
-- Batch renvoi complet ; ajouter les agents traités dans les traces ; ; FE
 - RP ; Logs , Optimisation (8Go) , Analyse 
 - Jobs ; Requête prosper ; 2019/09/09 ; FE,0.2
+/ Batch renvoi complet ; ajouter logs agents différents cas ; 2019/10/07 ; FE
+/ Batch Renvoi Complet : Etude et développement, intégration au menu : 2019/09/25 ; FE,1
 / Restauration CARMEN vers CARTEST ; ; 13/09/2019 ; FE,0.1
 / Timestamp "DateStart" sur le "Job" ; ajouter et tester (Junit) ; 2019/09/08 ; FE,0.2
-
-# Self
-- Git merge workflow master / develop ; dev
-- Dockerisation
 
 # Divers
 / Pt Section ; Participation ; 2019/09/04 ; FE,0.1
