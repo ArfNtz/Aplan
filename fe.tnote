@@ -6,9 +6,10 @@
 - Pouvoir rechercher dans les commentaires des contacts (Patrick) ; créer un rapport prosper personnalisé ?
 - Restriction de la consultation sur certaines fonctions (DRH par exemple) ; à la création d'une fonction, permettre de préciser les rôles ... et autorisations ? 
 - Tenir compte de l'ordre saisi sur l'affectation dans la vue service de la page d'accueil
-/ Positionner l'authentification sur le serveur ldap SalomonII en environnement de test
-/ Remettre l'image 'équivalence' dans la doc d'intro
-/ Changer la formule 'votre adresse mail professionnelle' dans la doc
+= Positionner l'authentification sur le serveur ldap SalomonII en environnement de test
+= Remettre l'image 'équivalence' dans la doc d'intro
+= Changer la formule 'votre adresse mail professionnelle' dans la doc
+= Rendre possible l'authentification avec l'identifiant ldap, en plus du mail
 / Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran 'affectation' ; 2019/10/09 ; FE MG
 / Anomalie, retour en la sélection complète après désélection d'un filtre sur une catégorie de fonction  ; 2019/10/09 ; FE
 / Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran d'accueil ; corrigé ; 2019/10/09 ; FE
@@ -42,9 +43,10 @@
 - Export de la selection d'agent de l'écran "typages" ; inclure les données pena des agents (PCG)
 - Création d'une action à partir du typage ; Avertir l'utilisateur si l'action est déjà existante, et va donc être complétée
 - Impossible d'interdire l'accès au lettrage pour le rôle ADMIN_CQCI. Pb de droits ; Corriger
-/ Import lettrage ; changer le masque "Ljjmmaa_Ajjmmaa..." en "Code_situation_observée" ; 2019/10/07 ; FE
-/ Optimisation analyses manuelles (écran-metier-requete) ; créer objets adaptés ; 2019/10/07 ; FE
-/ timeout session : étude et développement ; 2019/09/26 ; FE,0.5
+= Import lettrage ; changer le masque "Ljjmmaa_Ajjmmaa..." en "Code_situation_observée" ; 2019/10/07 ; FE
+= Optimisation analyses manuelles (écran-metier-requete) ; créer objets adaptés ; 2019/10/07 ; FE
+= timeout session : étude et développement ; 2019/09/26 ; FE,0.5
+= Rendre possible l'authentification avec l'identifiant ldap, en plus du mail
 / Création d'un action à partir d'une liste d'agents fournis par fichier csv ; écrire la procédure ; 2019/09/11 ; FE,1
 / Création d'un typage manuel à partir d'un lettrage ; etude et développement ; 2019/09/10 ; FE,1
 / Création d'un lettrage à partir d'un fichier csv ; étude et développement ; 2019/09/09 ; FE,1
