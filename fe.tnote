@@ -1,10 +1,14 @@
 # CARWEN
+- Le tri en arrivant sur l'écran 'affectation' pose question : multiple sur clé ... (unité de gestion attendu)
 ! Cas d'utilisation non résolu (Sophie) : écrire aux correspondants techniques SIHAM (EU) : recherche impossible via 'accueil', export impossible via 'affectation' ;
 = Reprises REPDET, reprise des mails ; qualification ; 
 ! timeout de session ; mettre celui de PENA ; ; FE
 - Pouvoir rechercher dans les commentaires des contacts (Patrick) ; créer un rapport prosper personnalisé ?
 - Restriction de la consultation sur certaines fonctions (DRH par exemple) ; à la création d'une fonction, permettre de préciser les rôles ... et autorisations ? 
 - Tenir compte de l'ordre saisi sur l'affectation dans la vue service de la page d'accueil
+/ Positionner l'authentification sur le serveur ldap SalomonII en environnement de test
+/ Remettre l'image 'équivalence' dans la doc d'intro
+/ Changer la formule 'votre adresse mail professionnelle' dans la doc
 / Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran 'affectation' ; 2019/10/09 ; FE MG
 / Anomalie, retour en la sélection complète après désélection d'un filtre sur une catégorie de fonction  ; 2019/10/09 ; FE
 / Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran d'accueil ; corrigé ; 2019/10/09 ; FE
