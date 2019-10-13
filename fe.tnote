@@ -1,20 +1,30 @@
 # CARWEN
-> Reprises PETREL ; qualification ; ; PG
+- Le tri en arrivant sur l'écran 'affectation' pose question : multiple sur clé ... (unité de gestion attendu)
+! Cas d'utilisation non résolu (Sophie) : écrire aux correspondants techniques SIHAM (EU) : recherche impossible via 'accueil', export impossible via 'affectation' ;
 = Reprises REPDET, reprise des mails ; qualification ; 
 ! timeout de session ; mettre celui de PENA ; ; FE
 - Pouvoir rechercher dans les commentaires des contacts (Patrick) ; créer un rapport prosper personnalisé ?
 - Restriction de la consultation sur certaines fonctions (DRH par exemple) ; à la création d'une fonction, permettre de préciser les rôles ... et autorisations ? 
 - Tenir compte de l'ordre saisi sur l'affectation dans la vue service de la page d'accueil
-- Problème de répartition des fonctions dans deux catégories identiques sur l'arbre de sélection des fonctions de l'écran d'accueil
-/ Filtre *domaine non pris en compte sur les contact (exemple cas de Patrick) ; corriger
-/ Recherche par code UGL sur la page d'accueil ; Mt2025 publiée branche "doc" ; 2019/10/09 ; FE
-/ changer les libellés contact en personne et correspondants en affectation.
+= Positionner l'authentification sur le serveur ldap SalomonII en environnement de test
+= Remettre l'image 'équivalence' dans la doc d'intro
+= Changer la formule 'votre adresse mail professionnelle' dans la doc
+= Rendre possible l'authentification avec l'identifiant ldap, en plus du mail
+/ Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran 'affectation' ; 2019/10/09 ; FE MG
+/ Anomalie, retour en la sélection complète après désélection d'un filtre sur une catégorie de fonction  ; 2019/10/09 ; FE
+/ Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran d'accueil ; corrigé ; 2019/10/09 ; FE
+/ Mettre un lien vers la doc d'intro en page login
+/ Fonction 'Accueil', décocher par défaut les résultats de la recherche ; Modif code ; 2019/10/09 ; FE
+/ Filtre *domaine non pris en compte sur les contact (exemple cas de Patrick liste.univ-rennes2.fr) ; corriger ; 2019/10/09 ; FE
+/ Rendre possible la recherche par code UGL sur la page d'accueil ; MT_2025 publiée branche "doc" ; 2019/10/09 ; FE
+/ Changer les libellés contact en personne et correspondants en affectation.
+/ Comptes utilisateurs ; créer via reprise annuaire SREN ; 2019/10/07 ; FE
 / Inscription ; préparer et faire circuler les feuilles ; 2019/10/07 ; FE
 / Support de formation ; ; 2019/10/07 ; FE
-/ Comptes utilisateurs ; créer via reprise annuaire SREN ; 2019/10/07 ; FE
-/ mettre le commentaire repris au niveau de la correspondance (et non au niveau du contact)
-/ Restaurer base prod sur recette ; Restaurer ; 2019/09/07 ; FE,0.2
+/ Mettre le commentaire repris au niveau de la correspondance (et non au niveau du contact)
+/ Reprises PETREL ; fait sur l'environnement de formation avec data.ods du 09/10/2019
 / PETREL data.ods ; reprendre les colonnes du fichier dans le zone commentaire du contact ; 2019/09/07 ; FE,0.5
+/ Restaurer base prod sur recette ; Restaurer ; 2019/09/07 ; FE,0.2
 / MT1971 et MT1972 (mois+1 sur la date, Trunc sur commentaire Ville) ; publié sur branche 'MT1971 et MT1972' ; 2019/07/23 ; FE,0.5
 / Mantis 1913 (pb de dates) ; publié en branche "MT_1913_Remise_en_ordre_datesG1" ; 2019/06/27 ; FE,0.3 ; FE,0.3
 / reprise REPDET ; développement programme de reprise des mail ; 2019/06/25 ; FE,0.5 ; FE,0.5
@@ -33,11 +43,10 @@
 - Export de la selection d'agent de l'écran "typages" ; inclure les données pena des agents (PCG)
 - Création d'une action à partir du typage ; Avertir l'utilisateur si l'action est déjà existante, et va donc être complétée
 - Impossible d'interdire l'accès au lettrage pour le rôle ADMIN_CQCI. Pb de droits ; Corriger
-/ Batch renvoi complet ; ajouter logs agents différents cas ; 2019/10/07 ; FE
-/ Import lettrage ; changer le masque "Ljjmmaa_Ajjmmaa..." en "Code_situation_observée" ; 2019/10/07 ; FE
-/ Optimisation analyses manuelles (écran-metier-requete) ; créer objets adaptés ; 2019/10/07 ; FE
-/ timeout session : étude et développement ; 2019/09/26 ; FE,0.5
-/ Batch Renvoi Complet : Etude et développement, intégration au menu : 2019/09/25 ; FE,1
+= Import lettrage ; changer le masque "Ljjmmaa_Ajjmmaa..." en "Code_situation_observée" ; 2019/10/07 ; FE
+= Optimisation analyses manuelles (écran-metier-requete) ; créer objets adaptés ; 2019/10/07 ; FE
+= timeout session : étude et développement ; 2019/09/26 ; FE,0.5
+= Rendre possible l'authentification avec l'identifiant ldap, en plus du mail
 / Création d'un action à partir d'une liste d'agents fournis par fichier csv ; écrire la procédure ; 2019/09/11 ; FE,1
 / Création d'un typage manuel à partir d'un lettrage ; etude et développement ; 2019/09/10 ; FE,1
 / Création d'un lettrage à partir d'un fichier csv ; étude et développement ; 2019/09/09 ; FE,1
@@ -62,15 +71,12 @@
 / Envoi de juin sgl_maj_dos ; créer l'action, le lettrage ; 2019/06/26 ; AV,0.2 FE,0.2 ; AV,0.2 FE,0.2
 
 # CARMEN
-- Batch renvoi complet ; ajouter les agents traités dans les traces ; ; FE
 - RP ; Logs , Optimisation (8Go) , Analyse 
 - Jobs ; Requête prosper ; 2019/09/09 ; FE,0.2
+/ Batch renvoi complet ; ajouter logs agents différents cas ; 2019/10/07 ; FE
+/ Batch Renvoi Complet : Etude et développement, intégration au menu : 2019/09/25 ; FE,1
 / Restauration CARMEN vers CARTEST ; ; 13/09/2019 ; FE,0.1
 / Timestamp "DateStart" sur le "Job" ; ajouter et tester (Junit) ; 2019/09/08 ; FE,0.2
-
-# Self
-- Git merge workflow master / develop ; dev
-- Dockerisation
 
 # Divers
 * pt section
