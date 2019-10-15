@@ -1,15 +1,16 @@
 # CARWEN
-- Le tri en arrivant sur l'écran 'affectation' pose question : multiple sur clé ... (unité de gestion attendu)
+- Corrections sur vidéos introduction
 ! Cas d'utilisation non résolu (Sophie) : écrire aux correspondants techniques SIHAM (EU) : recherche impossible via 'accueil', export impossible via 'affectation' ;
 = Reprises REPDET, reprise des mails ; qualification ; 
 ! timeout de session ; mettre celui de PENA ; ; FE
 - Pouvoir rechercher dans les commentaires des contacts (Patrick) ; créer un rapport prosper personnalisé ?
 - Restriction de la consultation sur certaines fonctions (DRH par exemple) ; à la création d'une fonction, permettre de préciser les rôles ... et autorisations ? 
 - Tenir compte de l'ordre saisi sur l'affectation dans la vue service de la page d'accueil
+= Positionner le tri en colonne 'Personne' sur l'écran 'affectation'
 = Positionner l'authentification sur le serveur ldap SalomonII en environnement de test
 = Remettre l'image 'équivalence' dans la doc d'intro
 = Changer la formule 'votre adresse mail professionnelle' dans la doc
-= Rendre possible l'authentification avec l'identifiant ldap, en plus du mail
+= Rendre possible l'authentification avec l'identifiant utilisateur ldap, en plus du mail professionnel
 / Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran 'affectation' ; 2019/10/09 ; FE MG
 / Anomalie, retour en la sélection complète après désélection d'un filtre sur une catégorie de fonction  ; 2019/10/09 ; FE
 / Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran d'accueil ; corrigé ; 2019/10/09 ; FE
@@ -43,6 +44,7 @@
 - Export de la selection d'agent de l'écran "typages" ; inclure les données pena des agents (PCG)
 - Création d'une action à partir du typage ; Avertir l'utilisateur si l'action est déjà existante, et va donc être complétée
 - Impossible d'interdire l'accès au lettrage pour le rôle ADMIN_CQCI. Pb de droits ; Corriger
+= Afficher l'UG en anomalie CAX et non celle du compte ; dans la liste des agents de l'écran 'typages' ; 2019/10/12 ; FE
 = Import lettrage ; changer le masque "Ljjmmaa_Ajjmmaa..." en "Code_situation_observée" ; 2019/10/07 ; FE
 = Optimisation analyses manuelles (écran-metier-requete) ; créer objets adaptés ; 2019/10/07 ; FE
 = timeout session : étude et développement ; 2019/09/26 ; FE,0.5
