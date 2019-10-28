@@ -1,20 +1,28 @@
 # CARWEN
-- Corrections sur vidéos introduction
+/ Passage en numérique des code fonction PETREL pour compatiblité avec le type de contact PROSPER
+/ Ajout de l'export des contacts PETREL dans Carwen
+! Problème : les nouveau contacts PETREL ne sont pas affichés par la fonction de comparaison Carwen
+! Problème : différence de clé entre la base carwen et prosper. Le champ ordre de la table contact fait partie de la clé côté prosper.
+- Ajouter un code couleur aux fonctions (DRH PETREL en rouge)
+- Reprise du réseau affiliation ; mail de Claudine Idot à discuter ; 2019/10/15 ; FE
 ! Cas d'utilisation non résolu (Sophie) : écrire aux correspondants techniques SIHAM (EU) : recherche impossible via 'accueil', export impossible via 'affectation' ;
 = Reprises REPDET, reprise des mails ; qualification ; 
 ! timeout de session ; mettre celui de PENA ; ; FE
 - Pouvoir rechercher dans les commentaires des contacts (Patrick) ; créer un rapport prosper personnalisé ?
 - Restriction de la consultation sur certaines fonctions (DRH par exemple) ; à la création d'une fonction, permettre de préciser les rôles ... et autorisations ? 
 - Tenir compte de l'ordre saisi sur l'affectation dans la vue service de la page d'accueil
-= Positionner le tri en colonne 'Personne' sur l'écran 'affectation'
-= Positionner l'authentification sur le serveur ldap SalomonII en environnement de test
-= Remettre l'image 'équivalence' dans la doc d'intro
-= Changer la formule 'votre adresse mail professionnelle' dans la doc
-= Rendre possible l'authentification avec l'identifiant utilisateur ldap, en plus du mail professionnel
-/ Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran 'affectation' ; 2019/10/09 ; FE MG
-/ Anomalie, retour en la sélection complète après désélection d'un filtre sur une catégorie de fonction  ; 2019/10/09 ; FE
-/ Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran d'accueil ; corrigé ; 2019/10/09 ; FE
-/ Mettre un lien vers la doc d'intro en page login
+= Vidéo introduction ; corrections ; 2019/10/15 ; FE
+= Interface ; Positionner le tri en colonne 'Personne' sur l'écran 'affectation' ; 2019/10/15 ; FE
+= Interface ; Positionner l'authentification sur le serveur ldap SalomonII en environnement de test ; 2019/10/15 ; FE
+= Doc d'intro ; Remettre l'image 'équivalence' ; 2019/10/15 ; FE
+= Doc d'intro ; Changer la formule 'votre adresse mail professionnelle' ; 2019/10/15 ; FE
+= Rendre possible l'authentification avec l'identifiant utilisateur ldap, en plus du mail professionnel ; 2019/10/15 ; FE
+/ Suppression des liens de modération pointant sur les personnes inexistantes en base ; requête à exécuter en production et test ; 2019/10/15 ; FE
+/ Suppression des correspondants d'ordre >= 5 ; requête à exécuter en production et test ; 2019/10/15 ; FE
+/ Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran 'affectation' ; corriger ; 2019/10/09 ; FE MG
+/ Anomalie, retour en la sélection complète après désélection d'un filtre sur une catégorie de fonction  ; corriger ; 2019/10/09 ; FE
+/ Anomalie, répétition de catégories dans l'arbre de sélection des fonctions de l'écran d'accueil ; corriger ; 2019/10/09 ; FE
+/ Mettre un lien vers la doc d'intro en page login ; ; 2019/10/10 ; FE
 / Fonction 'Accueil', décocher par défaut les résultats de la recherche ; Modif code ; 2019/10/09 ; FE
 / Filtre *domaine non pris en compte sur les contact (exemple cas de Patrick liste.univ-rennes2.fr) ; corriger ; 2019/10/09 ; FE
 / Rendre possible la recherche par code UGL sur la page d'accueil ; MT_2025 publiée branche "doc" ; 2019/10/09 ; FE
@@ -92,6 +100,8 @@
 / Carmen, consultation, aide RV, Pb d'affichage dand le bandeau ; erreur non loggée, pb vu en debug, ajout d'une condition sur l'affichage du lien vers pension ; 2019/07/15 ; FE,0.5
 
 # Prosper Mailing Message ; Ajouter les correspondants PETREL en destinataires
+
+/ Table PIL_MAILING ; mettre les nouveaux champs à la fin , sur PROTEST et dans les scripts alter sql et ddl.
 / Environnement technique ; Tomact5.5, Jdk7, récupération des projets, compilation (pom)
 / JSP, Action (contrôle), modèle, interfaces, ajout des champs ; Etude et dev
 / Base de données, mapping ; ajout des champs DDL, SQL, HBM
