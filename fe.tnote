@@ -40,7 +40,6 @@
 
 # PENA
 ! affichage du mel/login sur la fiche utilisateur ; corriger
-- Intégration des retours enquêtes ; documenter ; 2019/09/12 ; FE SC
 - Ajouter "PAO_DATE_ANALYSE" (la date liste sur l'action moe) afin de pouvoir sélectionner l'analyse permettant de lister les agents d'une action.
 - Lettrage ; Ajouter une fonctionnalité de remise à zéro (codeRetour et message).  Permettre aussi la suppression ?
 - Lettrage ; Mettre le libellé UG en colonne UG
@@ -57,6 +56,8 @@
 = Optimisation analyses manuelles (écran-metier-requete) ; créer objets adaptés ; 2019/10/07 ; FE
 = timeout session : étude et développement ; 2019/09/26 ; FE,0.5
 = Rendre possible l'authentification avec l'identifiant ldap, en plus du mail
+/ Intégration des retours enquêtes ; tester les fichiers reçus ; 2019/10/30 ; FE
+/ Intégration des retours enquêtes ; documenter ; 2019/09/12 ; FE SC
 / Création d'un action à partir d'une liste d'agents fournis par fichier csv ; écrire la procédure ; 2019/09/11 ; FE,1
 / Création d'un typage manuel à partir d'un lettrage ; etude et développement ; 2019/09/10 ; FE,1
 / Création d'un lettrage à partir d'un fichier csv ; étude et développement ; 2019/09/09 ; FE,1
