@@ -39,6 +39,8 @@
 / reprise REPDET ; développement programme de reprise des mail ; 2019/06/25 ; FE,0.5 ; FE,0.5
 
 # PENA
+> Rendre possible la création d'un typage sur une action ; ; 2019/11/07 ; FE,0.2
+- Ajouter la création du typage J10-D0200 "En attente de retour enquête" pour les actions "ENQUETE_SIRH" ; 2019/11/07 ; FE,0.5
 ! affichage du mel/login sur la fiche utilisateur ; corriger
 - Ajouter "PAO_DATE_ANALYSE" (la date liste sur l'action moe) afin de pouvoir sélectionner l'analyse permettant de lister les agents d'une action.
 - Lettrage ; Ajouter une fonctionnalité de remise à zéro (codeRetour et message).  Permettre aussi la suppression ?
@@ -51,6 +53,7 @@
 - Export de la selection d'agent de l'écran "typages" ; inclure les données pena des agents (PCG)
 - Création d'une action à partir du typage ; Avertir l'utilisateur si l'action est déjà existante, et va donc être complétée
 - Impossible d'interdire l'accès au lettrage pour le rôle ADMIN_CQCI. Pb de droits ; Corriger
+/ La CQCI souhaite stocker des informations sur les analyses manuelles, par exemple "{NUM_PENSION=12312132,DAT_NAI=15031994}" ; Prendre en compte une colonne complément dans l'import lettrage depuis CSV ; 2019/11/07 ; FE,0.1
 = Afficher l'UG en anomalie CAX et non celle du compte ; dans la liste des agents de l'écran 'typages' ; 2019/10/12 ; FE
 = Import lettrage ; changer le masque "Ljjmmaa_Ajjmmaa..." en "Code_situation_observée" ; 2019/10/07 ; FE
 = Optimisation analyses manuelles (écran-metier-requete) ; créer objets adaptés ; 2019/10/07 ; FE
