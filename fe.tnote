@@ -104,7 +104,7 @@
 / Carmen, consultation, aide RV, Pb d'affichage dand le bandeau ; erreur non loggée, pb vu en debug, ajout d'une condition sur l'affichage du lien vers pension ; 2019/07/15 ; FE,0.5
 
 # Prosper Mailing Message ; Ajouter les correspondants PETREL en destinataires
-> Mailing ; Ajout des type concact 80,81 ... PETREL dans la recherche de mail de correspondants
+/ Mailing ; Ajout des type concact 80,81 ... PETREL dans la recherche de mail de correspondants
 / livraisons de cardevfe vers protest de la table contact incluant PETREL
 / Ajout d'un comportement "radiobox" sur les cases à cocher des destinataires PETREL
 / Résolution des problème suite à synchro sur montée/descente de version (hibernate4 log4j)
