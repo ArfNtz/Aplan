@@ -39,8 +39,8 @@
 / reprise REPDET ; développement programme de reprise des mail ; 2019/06/25 ; FE,0.5 ; FE,0.5
 
 # PENA
-> Rendre possible la création d'un typage sur une action ; ; 2019/11/07 ; FE,0.2
-- Ajouter la création du typage J10-D0200 "En attente de retour enquête" pour les actions "ENQUETE_SIRH" ; 2019/11/07 ; FE,0.5
+- Optimisation requête "Initialiser une enquête"
+> création d'un typage J10-D0200 "En attente de retour enquête" pour les actions "ENQUETE_SIRH" ; première version en qualification ; 2019/11/07 ; FE,0.5
 ! affichage du mel/login sur la fiche utilisateur ; corriger
 - Ajouter "PAO_DATE_ANALYSE" (la date liste sur l'action moe) afin de pouvoir sélectionner l'analyse permettant de lister les agents d'une action.
 - Lettrage ; Ajouter une fonctionnalité de remise à zéro (codeRetour et message).  Permettre aussi la suppression ?
