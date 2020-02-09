@@ -2,7 +2,7 @@
 
 A sample text file that is compatible with the <a href="https://itunes.apple.com/fr/app/task-note/id1470748388">tasknote</a> iOS app.
 
-The syntax is resumed on <a href="https://github.com/ArfNtz/Aplan/blob/master/explain.pdf">slide 4</a>
+The syntax is resumed on <a href="https://github.com/ArfNtz/Aplan/blob/master/explain.pdf">slide 6</a>
 
 **Example**
 
