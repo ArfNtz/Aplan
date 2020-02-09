@@ -2,6 +2,10 @@
 
 A sample text file that is compatible with the <a href="https://itunes.apple.com/fr/app/task-note/id1470748388">tasknote</a> iOS app.
 
+The syntax is resumed on <a href="https://github.com/ArfNtz/Aplan/blob/master/explain.pdf">slide 4</a>
+
+**Example**
+
 When the text file below is sent to the iphone (via airdrop or mail), `tasknote` opens, and you can export the pdf timeline and tasklist (images below).
 
 ```
@@ -21,5 +25,3 @@ When the text file below is sent to the iphone (via airdrop or mail), `tasknote`
 ![timeline pdf chart](https://github.com/ArfNtz/Aplan/blob/master/timeline.png)
 
 ![tasklist pdf](https://github.com/ArfNtz/Aplan/blob/master/tasklist.png)
-
-The syntax is resumed on <a href="https://github.com/ArfNtz/Aplan/blob/master/explain.pdf">slide 4</a>
