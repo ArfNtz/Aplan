@@ -21,3 +21,5 @@ When the text file below is sent to the iphone (via airdrop or mail), `tasknote`
 ![timeline pdf chart](https://github.com/ArfNtz/Aplan/blob/master/timeline.png)
 
 ![tasklist pdf](https://github.com/ArfNtz/Aplan/blob/master/tasklist.png)
+
+The syntax is resumed on <a href="https://github.com/ArfNtz/Aplan/blob/master/explain.pdf">slide 4</a>
