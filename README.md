@@ -6,7 +6,7 @@ The syntax is resumed on <a href="https://github.com/ArfNtz/Aplan/blob/master/ex
 
 **Example**
 
-When the text file below is sent to the iphone (via airdrop or mail), `tasknote` opens, then you can export the pdf timeline and tasklist (images below).
+When the text file below is sent to the iphone (via airdrop or mail), <a href="https://itunes.apple.com/fr/app/task-note/id1470748388">tasknote</a> opens, then you can export the pdf timeline and tasklist (images below).
 
 ```
 # Team work;;2019/05/12
